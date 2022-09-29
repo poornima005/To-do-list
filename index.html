@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Todo List App </title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="heading">
+      <h1>To - Do List</h1>
+    </div>  
+    <div class="to-do-box">
+      <div class="t-input">
+        <input class="cl-box" type="text" placeholder="Add a task">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All<i class="fa fa-bars" aria-hidden="true"></i></span>
+          <span id="pending">Pending<i class="fa fa-tasks" aria-hidden="true"></i></span>
+          <span id="completed">Completed<i class="fa fa-check-square-o" aria-hidden="true"></i></i></span>
+        </div>
+        <button class="clear-btn">Clear</button>
+      </div>
+      <ul class="t-box"></ul>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
